@@ -11,10 +11,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Usertest spike</h1>
+        <h1 className={styles.title}>Another page</h1>
 
         <div className={styles.grid}>
-          <Link href="/page">
+          <Link href="/">
             <a className={styles.card}>
               <h3>Another Page</h3>
               <p>Go to this page</p>
