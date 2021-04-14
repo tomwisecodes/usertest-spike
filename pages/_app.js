@@ -7,9 +7,9 @@ function MyApp({ Component, pageProps }) {
       api.init();
     };
     var script = document.createElement("script");
-    script.defer = 1;
+    script.async = 1;
     script.src =
-      "https://widget.usersnap.com/global/load/5b82eb0e-ab1d-4866-b2e7-da95ecb512ab?onload=onUsersnapCXLoad";
+      "https://widget.usersnap.com/load/6cd26e4a-4d67-4aa1-8b78-15cb7f0bdd7e?onload=onUsersnapCXLoad";
     document.getElementsByTagName("head")[0].appendChild(script);
     return () => {
       document.getElementsByTagName("head")[0].removeChild(script);
